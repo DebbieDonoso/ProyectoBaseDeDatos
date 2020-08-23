@@ -96,7 +96,7 @@ public class SistemaClinica extends Application {
         
         root.getChildren().addAll(cmbOpciones,btnIngresar);
         
-        Scene scene = new Scene(root, 800, 650);
+        Scene scene = new Scene(root, 400, 350);
         
         primaryStage.setTitle("Menú principal");
         primaryStage.setScene(scene);
