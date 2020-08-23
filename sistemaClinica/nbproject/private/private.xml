@@ -3,10 +3,12 @@
     <editor-bookmarks xmlns="http://www.netbeans.org/ns/editor-bookmarks/2" lastBookmarkId="0"/>
     <open-files xmlns="http://www.netbeans.org/ns/projectui-open-files/2">
         <group>
-            <file>file:/C:/Users/jimmy/Desktop/sistemaClinica/src/subVentanas/Citas.java</file>
-            <file>file:/C:/Users/jimmy/Desktop/sistemaClinica/src/subVentanas/ventanasCitas/anadirCita.java</file>
-            <file>file:/C:/Users/jimmy/Desktop/sistemaClinica/src/subVentanas/Pacientes.java</file>
-            <file>file:/C:/Users/jimmy/Desktop/sistemaClinica/src/sistemaclinica/SistemaClinica.java</file>
+            <file>file:/C:/Users/F.%20Lopez/Documents/GitHub/ProyectoBaseDeDatos/sistemaClinica/src/subVentanas/ventanasPacientes/consultarPaciente.java</file>
+            <file>file:/C:/Users/F.%20Lopez/Documents/GitHub/ProyectoBaseDeDatos/sistemaClinica/src/sistemaclinica/TipoCita.java</file>
+            <file>file:/C:/Users/F.%20Lopez/Documents/GitHub/ProyectoBaseDeDatos/sistemaClinica/src/subVentanas/ventanasPacientes/anadirPaciente.java</file>
+            <file>file:/C:/Users/F.%20Lopez/Documents/GitHub/ProyectoBaseDeDatos/sistemaClinica/src/sistemaclinica/SistemaClinica.java</file>
+            <file>file:/C:/Users/F.%20Lopez/Documents/GitHub/ProyectoBaseDeDatos/sistemaClinica/src/subVentanas/ventanasPacientes/eliminarPaciente.java</file>
+            <file>file:/C:/Users/F.%20Lopez/Documents/GitHub/ProyectoBaseDeDatos/sistemaClinica/src/subVentanas/Pacientes.java</file>
         </group>
     </open-files>
 </project-private>
