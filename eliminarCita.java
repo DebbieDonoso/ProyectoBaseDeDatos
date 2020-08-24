@@ -79,7 +79,7 @@ public class eliminarCita extends Application {
 
                     //hago llamada al driver que me permitira conectar con la base de datos
                     Class.forName("com.mysql.jdbc.Driver");//asumo que la base de datos se llama proyectobd1
-                    cnx = DriverManager.getConnection("jdbc:mysql://localhost/proyectofinal?user=root&password=");
+                    cnx = DriverManager.getConnection("jdbc:mysql://localhost/proyectofinal1?user=root&password=");
                     sta =cnx.createStatement();
                     //sta.executeQuery("delete from paciente where cedula_paciente = "+cedula+"");
                     sta.execute("delete from citasprevias where cedula_paciente = "+cedula+"");

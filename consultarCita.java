@@ -122,7 +122,7 @@ public class consultarCita extends Application {
                         
                     //hago llamada al driver que me permitira conectar con la base de datos
                     Class.forName("com.mysql.jdbc.Driver");//asumo que la base de datos se llama clinica
-                    cnx = DriverManager.getConnection("jdbc:mysql://localhost/proyectobd1?user=root&password=");
+                    cnx = DriverManager.getConnection("jdbc:mysql://localhost/proyectofinal1?user=root&password=");
                     sta =cnx.createStatement();//añado el dato a la base de datos en la tabla Citas_previas , si el elemento ya esta agregado no agregara el registro
                 
                     rs= sta.executeQuery("select * from citasprevias where cedula_Paciente = "+consulta+"");
@@ -196,7 +196,7 @@ public class consultarCita extends Application {
         
         
         
-        Scene scene = new Scene(contenedor, 600, 550);
+        Scene scene = new Scene(contenedor, 800, 550);
 
         
         primaryStage.setTitle("Consultas");

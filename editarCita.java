@@ -150,11 +150,12 @@ public class editarCita extends Application {
                    
                     //hago llamada al driver que me permitira conectar con la base de datos
                     Class.forName("com.mysql.jdbc.Driver");//asumo que la base de datos se llama proyectobd1
-                    cnx = DriverManager.getConnection("jdbc:mysql://localhost/proyectofinal?user=root&password=");
+                    cnx = DriverManager.getConnection("jdbc:mysql://localhost/proyectofinal1?user=root&password=");
                     sta =cnx.createStatement();//añado el dato a la base de datos en la tabla Citas_previas , si el elemento ya esta agregado no agregara el registro
                     //rs= sta.executeQuery("update citasprevias set tipo_Cita = "+dato+" where cedula_Paciente = "+cedula+"");
                     if(opciones.toString().equals("tipo_Cita")){
                                     sta.executeUpdate("update citasprevias set tipo_Cita = '"+dato+"' where cedula_Paciente = "+cedula+"");
+                                    
                     }
                             
                        contenedor.add(new Label("Registro modificado con éxito!"),1,6);
@@ -177,7 +178,7 @@ public class editarCita extends Application {
                         
                     }
                         contenedor.add(new Label("Registro modificado con éxito!"),1,6);
-                    
+                        
                     
                     
                     cnx.close();
